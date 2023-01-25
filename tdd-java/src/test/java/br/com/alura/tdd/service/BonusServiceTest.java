@@ -12,11 +12,11 @@ import br.com.alura.tdd.modelo.Funcionario;
 class BonusServiceTest {
 
 	@Test
-	void bonusDeveriaSerZeroQuandoFuncionarioTiverSalarioMuitoAlto() {
+	void bonusNaoDeveSerAplicadoQuandoFuncionarioTiverSalarioMuitoAlto() {
 		BonusService service = new BonusService();
-		BigDecimal bonus = service.calcularBonus(new Funcionario("Luiz", LocalDate.now(), new BigDecimal("25000")));
 		
-		assertEquals(new BigDecimal("0.00"), bonus);
+		assertThrows(IllegalArgumentException.class, 
+				() -> service.calcularBonus(new Funcionario("Luiz", LocalDate.now(), new BigDecimal("25000"))));
 	}
 	
 	@Test
