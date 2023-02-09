@@ -1,15 +1,15 @@
 <p align="center">
   <image
-  src="https://img.shields.io/github/languages/count/uluizeduardo/tdd-java/"
+  src="https://img.shields.io/github/languages/count/uluizeduardo/tdd-java"
   />
   <image
-  src="https://img.shields.io/github/languages/top/uluizeduardo/tdd-java/"
+  src="https://img.shields.io/github/languages/top/uluizeduardo/tdd-java"
   />
   <image
-  src="https://img.shields.io/github/last-commit/uluizeduardo/tdd-java/"
+  src="https://img.shields.io/github/last-commit/uluizeduardo/tdd-java"
   />
   <image
-  src="https://img.shields.io/github/watchers/uluizeduardo/tdd-java/"
+  src="https://img.shields.io/github/watchers/uluizeduardo/tdd-java"
   />
 </p>
 
